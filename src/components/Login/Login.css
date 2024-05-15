@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.login-box {
+  background-color: #000;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  text-align: center;
+  width: 300px;
+}
+
+.login-box h2 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.login-box p {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  outline: none;
+}
+
+.login-box input::placeholder {
+  color: #fff;
+}
+
+.login-box .forgot-password {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  margin: 10px 0 20px;
+}
+
+.login-box .forgot-password:hover {
+  text-decoration: underline;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.login-box button:hover {
+  background-color: #218838;
+}
+
+.social-login {
+  margin-top: 20px;
+}
+
+.social-login a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.social-login a:hover {
+  color: #ccc;
+}
+
+.error {
+  color: red !important;
+  margin-bottom: 10px;
+}
